@@ -1,7 +1,9 @@
 # A notebook whirlwind tour of Common Crawl's datasets on AWS
 
-This repo provides an example Amazon Sagemaker notebook showcasing the
-Common Crawl Dataset on AWS.
+This repo provides an example notebook showcasing the
+Common Crawl Dataset on AWS. It has been tested on Amazon SageMaker
+and Jupyter Notebook, but designed to run seamlessly in any Python notebook
+environment that support standard Jupyter .ipynb execution.
 
 All Common Crawl datasets are hosted on AWS s3 buckets and are
 publicly available through `s3` and `https` protocols. To read more
